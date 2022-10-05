@@ -1,0 +1,94 @@
+
+    body{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    .container{
+        background-color: hsl(216, 12%, 8%);
+        padding-left: 30px;
+        border-radius: 25px;
+        max-width: 22%;
+        padding-right: 60px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }.starcontainer{   
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(213, 19%, 18%);
+        border-radius: 50%;
+        margin-top:20px;
+    }.star{
+        height: 17px;
+        width: 17px;
+    }h2,p,.numcontainer,button{
+        color:white;
+        font-family: 'Overpass', sans-serif;
+        text-align: left;
+        font-weight: 700;
+    }p{
+        font-weight: 400 !important;
+        color: hsl(217, 12%, 63%);
+    }.numcontainer{
+        display: flex;
+        column-gap: 13px;
+        margin-bottom: 20px;
+    }.num{
+        /* padding-bottom: 20px; */
+        /* padding-top:5px; */
+        /* padding-right: 15px;
+        padding-left: 15px; */
+        height: 47px;
+        width:53px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: hsl(213, 19%, 18%);;
+        text-align: center;
+        border: none;
+    }.num:hover{
+        background-color: grey;
+        color:white;
+    }button{
+        text-align: center;
+        color : hsl(217, 12%, 63%);
+        align-self: center;
+        justify-self: center;
+        cursor: pointer;
+    }p{
+        margin-top: -5px;
+    }.submit{
+        width:100%;
+        background-color: hsl(25, 97%, 53%);
+        border: none;
+        height: 35px;
+        border-radius: 35px;
+        margin-bottom: 20px;
+        color:white;
+    }.active{
+        background-color: white;
+        color:hsl(25, 97%, 53%);
+        border: none;
+        height: 35px;
+        border-radius: 35px;
+        margin-bottom: 20px;
+        width:100%;
+    }.numactive{
+        height: 47px;
+        width:53px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: hsl(25, 97%, 53%);
+        color:white;
+        text-align: center;
+        border: none;
+    }

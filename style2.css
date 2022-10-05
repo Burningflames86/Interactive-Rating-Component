@@ -1,0 +1,46 @@
+
+        body{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }.container{
+            background-color: hsl(216, 12%, 8%);
+            padding-left: 30px;
+            border-radius: 25px;
+            width: 24%;
+            padding-right: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }svg{
+            margin-top: 20%;
+        }.rating{
+            font-family: 'Overpass', sans-serif;
+            font-weight: lighter;
+            font-size: small;
+            color:hsl(25, 79%, 63%);
+            margin-left: 10%;
+            background-color: hsl(213, 19%, 18%);
+            border-radius: 35px;
+            text-align: center;
+            width: 110%;
+            margin-top:10%;
+            display: flex;
+            padding: 5px;
+            justify-content: center;
+            align-items: center;
+        }h2, .thanks{
+            font-family: 'Overpass', sans-serif;
+            color:white;
+            text-align: center;
+        }h2{
+            margin-top: 20px;
+        }.thanks{
+            width: 100%;
+            margin-bottom: 40px;
+            margin-top: -6px;
+        }
